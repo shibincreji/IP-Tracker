@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [Github](https://github.com/adram3l3ch/IP-Tracker)
+-   Solution URL: [Github](https://github.com/shibincreji/IP-Tracker)
 -   Live Site URL: [Netlify](https://adramelech-ip-address-tracker.netlify.app/)
 
 ## My process
