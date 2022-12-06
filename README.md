@@ -14,7 +14,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [Github](https://github.com/shibincreji/IP-Tracker)
--   Live Site URL: [Netlify](https://adramelech-ip-address-tracker.netlify.app/)
+-   Live Site URL: [Netlify](https://tracktheip.netlify.app)
 
 ## My process
 
