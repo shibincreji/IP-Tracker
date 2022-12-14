@@ -6,6 +6,8 @@ WORKDIR .
 
 # add `/app/node_modules/.bin` to $PATH
 ENV PATH /app/node_modules/.bin:$PATH
+ARG VERSION
+ENV VERSION=${VERSION}
 
 # install app dependencies
 COPY package.json ./
