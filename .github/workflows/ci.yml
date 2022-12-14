@@ -1,0 +1,30 @@
+name: Github-Action-Demo
+
+on:
+  pull_request:
+    branches:
+      - master
+    types:
+      - opened
+      - closed
+jobs:
+  build:
+    environment:
+      name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Login to DockerHub
+        uses: docker/login-action@v2
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Build & push the Docker image
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+        run: |
+          export VERSION=$(cat git-version.yaml )
+          export IMAGE=$DOCKERHUB_USERNAME/${{ github.event.repository.name }}:$VERSION
+          echo "IMAGE=$IMAGE" >> $GITHUB_ENV
+          docker build . --file Dockerfile --build-arg VERSION=$VERSION --tag $IMAGE && docker push $IMAGE
