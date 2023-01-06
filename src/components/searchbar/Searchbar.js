@@ -46,4 +46,4 @@ const Searchbar = () => {
 	);
 };
 
-export default Searchbar;1
+export default Searchbar;12
