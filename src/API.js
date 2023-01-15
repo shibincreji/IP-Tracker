@@ -12,3 +12,4 @@ export const fetchUserIP = async () => {
 	const data = await resp.json();
 	return data;
 };
+1
