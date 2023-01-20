@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";1
+import { createContext, useContext, useEffect, useState } from "react";11
 import { fetchIP, fetchUserIP } from "./API";
 const AppContext = createContext();
 const initialState = {
