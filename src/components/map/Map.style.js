@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components";1
 
 export const Wrapper = styled.div`
 	height: 55%;
