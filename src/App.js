@@ -1,4 +1,4 @@
-import Home from "./pages/Home";123
+import Home from "./pages/Home";1234
 
 function App() {
 	return <Home />;
