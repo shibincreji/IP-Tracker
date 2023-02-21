@@ -1,4 +1,4 @@
-import React from "react";1
+import React from "react";11
 import { useGlobalContext } from "../../context";
 import Loading from "../../pages/loading/Loading";
 import { Wrapper } from "./Card.style";
