@@ -11,5 +11,5 @@ export const fetchUserIP = async () => {
 	const resp = await fetch("https://api.ipify.org/?format=json");
 	const data = await resp.json();
 	return data;
-};1111111111111
+};11111111111111
 
