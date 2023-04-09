@@ -1,5 +1,5 @@
 import React from "react";
-import Searchbar from "../components/searchbar/Searchbar";1
+import Searchbar from "../components/searchbar/Searchbar";11
 import { Wrapper, Header } from "./Home.style";
 import Bg from "../assets/pattern-bg.png";
 import Card from "../components/Card/Card";
