@@ -1,5 +1,5 @@
 import React from "react";
-import { useGlobalContext } from "../../context";11111111111
+import { useGlobalContext } from "../../context";
 import { Wrapper } from "./Map.style";
 require("dotenv").config();
 
