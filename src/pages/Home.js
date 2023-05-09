@@ -1,4 +1,4 @@
-import React from "react";11111111111111111
+import React from "react";111111111111111111
 import Searchbar from "../components/searchbar/Searchbar";
 import { Wrapper, Header } from "./Home.style";
 import Bg from "../assets/pattern-bg.png";
