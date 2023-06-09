@@ -1,4 +1,4 @@
-import React from "react";111111111111111
+import React from "react";
 import { useGlobalContext } from "../../context";
 import { Wrapper } from "./Modal.style";
 
