@@ -1,4 +1,4 @@
-11111111111111const URL =
+const URL =
 	"https://geo.ipify.org/api/v1?apiKey=at_v7XSsB0jCeNUTTUOl2YK1JNGkhKLO&ipAddress=";
 
 export const fetchIP = async (ip) => {
